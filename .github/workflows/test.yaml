@@ -1,8 +1,6 @@
 name: Build Docker image and push
 on:
   workflow_dispatch:
-  pull_request:
-    types: ['labeled']
 jobs:
   build:
     runs-on: ubuntu-latest

@@ -1,4 +1,4 @@
-name: Build Docker image and push
+name: test
 on:
   workflow_dispatch:
 jobs:
